@@ -136,7 +136,7 @@ header ul,.first-section ul{
 }
 
 .bg-color-section{
-    background-color: rgb(211 211 211);
+    background-color: rgb(229 229 229);
 }
 
 .biggest-box{
@@ -211,4 +211,17 @@ hr{
     margin: auto;
     width: 70%;
     border-color: rgb(68 80 116);
+}
+
+.waves{
+    width: 100%;
+    filter: invert(1) saturate(1) brightness(0.9);
+    display: flex;
+}
+
+.waves-inverted{
+    width: 100%;
+    filter: invert(1) saturate(1) brightness(0.9);
+    display: flex;
+    transform: rotate(180deg);
 }
