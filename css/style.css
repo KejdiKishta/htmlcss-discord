@@ -28,39 +28,43 @@ section{
     padding: 40px 0;
 }
 
+.button-style{
+    padding: 8px;
+    border-radius: 15px;
+}
+
+.bg-w{
+    background-color: white;
+}
+
+.c-w{
+    color: white;
+}
+
 /* HEADER */
 header{
-    /* debug */
-    background-color: rgb(173 216 230);
+    background-color: rgb(37 94 233);
+    height: 50px;
+    line-height: 50px;
+
 }
 
-.head{
-    padding: 10px;
-}
-
-.logo, .login{
+.logo{
     width: 20%;
-    padding: 5px;
-
-    /* debug */
-    background-color: rgb(218 165 32);
-    border: 2px dashed black;
+    vertical-align: middle;
 }
 
 .login{
     text-align: right;
+    width: 20%;
 }
 
 header nav{
     width: 60%;
-
-    /* debug */
-    border: 2px dashed black;
-    background-color: rgb(218 165 32);
 }
 
 header li{
-    padding: 5px;
+    padding: 0 10px;
 }
 
 header ul{
